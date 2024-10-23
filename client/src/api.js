@@ -3,7 +3,11 @@ import axios from "axios";
 import { API_NOTIFICATIONS } from "./noti";
 import { API_CALLS } from "./noti";
 import { getAccesstoken ,getType} from "./common-utils";
+<<<<<<< HEAD
 const API_URL = "https://blogify-backend-amber.vercel.app";
+=======
+const API_URL = "https://blogify-one-eta.vercel.app/";
+>>>>>>> 2c65b0ec4b1a79e66e9743dc0a1492be3de02927
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
