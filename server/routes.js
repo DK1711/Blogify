@@ -27,10 +27,10 @@ const authenticatetoken=(req,res,next)=>{
      next();
    });
 }
-router.post("/", (req, res) => {
+router.get("/", (req, res) => {
   res.send("Hello");
 });
-router.post("/test",(req,res)=>{
+router.get("/test",(req,res)=>{
    res.send("Hello");
 });
 router.post('/signup',signup);
