@@ -27,6 +27,12 @@ const authenticatetoken=(req,res,next)=>{
      next();
    });
 }
+router.post("/", (req, res) => {
+  res.send("Hello");
+});
+router.post("/test",(req,res)=>{
+   res.send("Hello");
+});
 router.post('/signup',signup);
 router.post("/login", login);
 router.post("/file/upload",upload.single('file'),uploadImage);
