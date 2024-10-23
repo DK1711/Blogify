@@ -4,6 +4,8 @@ import { API_NOTIFICATIONS } from "./noti";
 import { API_CALLS } from "./noti";
 import { getAccesstoken ,getType} from "./common-utils";
 const API_URL = "https://blogify-backend-amber.vercel.app";
+// const API_URL = "http://localhost:8000";
+
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
